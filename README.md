@@ -56,9 +56,11 @@ You can obtain the results by running the dedicated bash files:
 
 ```bash
 bash node_classification/run_gnn.sh
+```
 
 ### Graph Classification
 You can obtain the results by running the dedicated bash files:
 
 ```bash
 bash graph_classification/run_gnn.sh
+```
