@@ -6,7 +6,7 @@ This repository provides a comprehensive and extensible framework for evaluating
 
 This project is organized into two primary tasks:
 
-* **Node Classification**: Scripts and models for predicting the labels of individual nodes within a graph. This includes standard GNNs like GCN and GAT, as well as more advanced models like FSGCN and GPR-GNN.
+* **Node Classification**: Scripts and models for predicting the labels of individual nodes within a graph. This includes standard GNNs like GCN and GAT, as well as more advanced models like FSGCN and Graph transformers.
 * **Graph Classification**: Scripts and models for predicting the label of an entire graph. This includes standard GNNs with pooling layers and advanced Graph Transformer models like GPS and Subgraphormer.
 
 The framework is designed to be modular, enabling straightforward experimentation with different models, hyperparameters, and datasets.
@@ -28,7 +28,7 @@ The framework is designed to be modular, enabling straightforward experimentatio
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/ncometa/eval_gnn.git](https://github.com/ncometa/eval_gnn.git)
+    git clone https://github.com/ncometa/eval_gnn.git
     cd eval_gnn
     ```
 
@@ -37,7 +37,7 @@ The framework is designed to be modular, enabling straightforward experimentatio
 
     ```bash
     # Install PyTorch and PyG (adjust for your CUDA version if necessary)
-    pip install torch torchvision torau
+    pip install torch torchvision torchaudio
     pip install torch-geometric
 
     # Install other required packages
@@ -52,5 +52,13 @@ This repository uses shell scripts to automate hyperparameter tuning and evaluat
 
 ### Node Classification
 
-The main script for node classification is `node_classification/main.py`. You can run experiments by passing command-line arguments.
+You can obtain the results by running the dedicated bash files:
 
+```bash
+bash node_classification/run_gnn.sh
+
+### Graph Classification
+You can obtain the results by running the dedicated bash files:
+
+```bash
+bash graph_classification/run_gnn.sh
