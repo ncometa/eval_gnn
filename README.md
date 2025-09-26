@@ -24,13 +24,13 @@ The framework is designed to be modular, enabling straightforward experimentatio
 * scikit-learn
 * torcheval
 
-### Installation
+<!-- ### Installation
 
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/ncometa/eval_gnn.git
     cd eval_gnn
-    ```
+    ``` -->
 
 2.  **Install dependencies:**
     It is highly recommended to use a virtual environment (e.g., `conda` or `venv`).
