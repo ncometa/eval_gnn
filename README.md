@@ -32,7 +32,7 @@ The framework is designed to be modular, enabling straightforward experimentatio
     cd eval_gnn
     ``` -->
 
-2.  **Install dependencies:**
+1.  **Install dependencies:**
     It is highly recommended to use a virtual environment (e.g., `conda` or `venv`).
 
     ```bash
